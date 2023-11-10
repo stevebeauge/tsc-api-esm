@@ -1,0 +1,17 @@
+{
+  "name": "tsc-api-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "scripts": {
+    "start:cjs": "node index.cjs",
+    "start:esm": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "Steve Beaugé",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
